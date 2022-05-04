@@ -162,6 +162,12 @@ body {
 
 }
 
+main .container #about p a:hover{
+    color: chocolate;
+    text-decoration: underline;
+    transition: 300ms;
+}
+
 @media only screen and (max-width: 1300px){
     .container .name h1 {
         font-size: 50px;
