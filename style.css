@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #000;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ header {
     align-items: center;
     padding: 10px;
     border-bottom: 5px ridge rgb(230, 188, 140);
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 header ul {
@@ -58,7 +58,7 @@ header ul li:first-child {
 
 .container{
     padding: 30px;
-    background-color: rgba(240, 248, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.1);
     margin-top: 5%;
     margin-left: 33%;
     margin-right: 33%;
@@ -111,13 +111,13 @@ footer {
     right: 0;
     left: 0;
     border-top: 5px ridge rgb(230, 188, 140);
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
     /* margin-top: 175px; */
     padding: 10px;
 }
 
 footer p{
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .form {
@@ -145,7 +145,7 @@ footer p{
     cursor: pointer;
     transition: 300ms;
     border-radius: 0px 5px 5px 0px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: -5px;
 }
 
@@ -161,7 +161,7 @@ a {
 body {
     height: 100vh;
     background: url(imagens/bg.jpg) no-repeat center center fixed;
-    background-color: rgba(0, 0, 0,0.5);
+    background-color: rgba(0, 0, 0,0.75);
     background-blend-mode: overlay;
     background-size: cover;
 
