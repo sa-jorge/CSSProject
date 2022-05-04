@@ -78,6 +78,8 @@ header ul li:first-child {
 #rocket {
     font-size: x-large;
     cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .container .name h1 {
