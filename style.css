@@ -56,23 +56,20 @@ header ul li:first-child {
     border-left: 1px dashed black;
 }
 
-.container .name h1 {
-    font-size: 60px;
-}
-
-p {
-    font-weight: 400;
-}
-
 .container{
     padding: 30px;
-    background-color: rgba(240, 248, 255, 0.5);
+    background-color: rgba(240, 248, 255, 0.75);
     margin-top: 5%;
     margin-left: 33%;
     margin-right: 33%;
     border-radius: 5px;
     
 }
+
+.container .name h1 {
+    font-size: 60px;
+}
+
 .container .name h5 {
     font-size: 30px;
     font-weight: 400;
@@ -83,14 +80,17 @@ p {
     cursor: pointer;
 }
 
+.container .name h1 {
+    font-size: 60px;
+}
+
 .container i:hover {
     color: chocolate;
 }
 
-.container i {
-    transition: 300ms;
+.container .name h1 {
+    font-size: 60px;
 }
-
 
 .active {
     display: block !important;
@@ -98,6 +98,7 @@ p {
 
 #about p {
     max-width: 600px;
+    font-weight: 400;
     margin: 0 auto;
 }
 
@@ -158,6 +159,8 @@ a {
 body {
     height: 100vh;
     background: url(imagens/bg.jpg) no-repeat center center fixed;
+    background-color: rgba(0, 0, 0,0.5);
+    background-blend-mode: overlay;
     background-size: cover;
 
 }
