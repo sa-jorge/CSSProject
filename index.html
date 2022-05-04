@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4ab24e10aa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Jorge Sá</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a target="blank" href="https://github.com/sa-jorge"> <i class="fa-brands fa-github"></i> <br> github </a></li>
+            <li><a target="blank" href="mailto:jorge.sa@engenharia.ufjf.br"> <i class="fa-regular fa-envelope"></i> <br> email </a></li>
+            <li><a target="blank" href="https://www.instagram.com/sa_jorge/"> <i class="fa-brands fa-instagram"></i> <br> instagram </a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div>    
+                <img src="imagens/foto.jpg" id="foto">
+            </div> 
+            <div class="name">
+                <h1>Jorge Sá</h1>
+                <h5>Engenheiro Mecânico | Dev em Formação</h5>
+            </div>
+            <div id="rocket">
+                <i onclick="myFunction(this)" class="fa-solid fa-rocket"></i>
+            </div>
+            <div style="display: none;" id="about">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum autem quae ratione, adipisci quas consequatur expedita quaerat sapiente dolore quibusdam, necessitatibus consectetur aliquam tempora. Est blanditiis iusto veritatis minima ea!
+                </p>
+            </div>
+        </section>
+    </main>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("fa-shuttle-space");
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+    <footer>
+        <div class="form">
+            <div>
+                <p>Deixe seu contato!</p>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Seu melhor email.">
+                <button>Enviar!</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
