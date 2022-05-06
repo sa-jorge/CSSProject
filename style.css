@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto slab', sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -68,6 +68,7 @@ header ul li:first-child {
 
 .container .name h1 {
     font-size: 60px;
+    font-weight: 600;
 }
 
 .container .name h5 {
@@ -96,7 +97,7 @@ header ul li:first-child {
 
 #about p {
     max-width: 600px;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 auto;
 }
 
@@ -108,7 +109,6 @@ footer {
     left: 0;
     border-top: 5px ridge rgb(230, 188, 140);
     background-color: rgba(255, 255, 255, 0.1);
-    /* margin-top: 175px; */
     padding: 10px;
 }
 
