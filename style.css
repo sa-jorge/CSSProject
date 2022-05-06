@@ -32,7 +32,7 @@ header ul {
 
 header ul li {
     padding: 10px;
-    border-right: 1px dashed black;
+    border-right: 1px dashed rgb(255, 255, 255);
 }
 
 header ul li a {
@@ -53,7 +53,7 @@ header ul li a:hover i{
 }
 
 header ul li:first-child {
-    border-left: 1px dashed black;
+    border-left: 1px dashed rgb(255, 255, 255);
 }
 
 .container{
@@ -80,10 +80,6 @@ header ul li:first-child {
     cursor: pointer;
     padding-top: 15px;
     padding-bottom: 10px;
-}
-
-.container .name h1 {
-    font-size: 60px;
 }
 
 .container i:hover {
@@ -185,7 +181,7 @@ main .container #about p a:hover{
     .container{
         margin-top: 50px;
         padding: 20px;
-        background-color: rgba(240, 248, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.1);
         margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
@@ -203,6 +199,10 @@ main .container #about p a:hover{
         margin: 0 auto;
     
     }
+    .container p a {
+        text-decoration: underline;
+        color: chocolate;
+    }
 }
 
 @media only screen and (max-width: 1100px){
@@ -215,7 +215,7 @@ main .container #about p a:hover{
     }
     .container{
         padding: 20px;
-        background-color: rgba(240, 248, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.1);
         margin-top: 1%;
         margin-left: 10%;
         margin-right: 10%;
@@ -233,20 +233,24 @@ main .container #about p a:hover{
         margin: 0 auto;
     
     }
+    .container p a {
+        text-decoration: underline;
+        color: chocolate;
+    }
 }
 
 @media only screen and (max-width: 912px){
     .container .name h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .container .name h5 {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 400;
     }
     .container{
         margin-top: 190px;
         padding: 20px;
-        background-color: rgba(240, 248, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.1);
         margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
@@ -257,27 +261,31 @@ main .container #about p a:hover{
         max-width: 80%;
         margin: 0 auto;
         text-align: justify;
-        font-size: 30px;
+        font-size: 20px;
     }
     .form {
         width: 100%;
         margin: 0 auto;
     
     }
+    .container p a {
+        text-decoration: underline;
+        color: chocolate;
+    }
 }
 
 @media only screen and (max-width: 560px){
     .container .name h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .container .name h5 {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
     }
     .container{
         margin-top: 190px;
         padding: 20px;
-        background-color: rgba(240, 248, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.1);
         margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
@@ -294,6 +302,10 @@ main .container #about p a:hover{
         width: 100%;
         margin: 0 auto;
     
+    }
+    .container p a {
+        text-decoration: underline;
+        color: chocolate;
     }
 }
 
@@ -308,7 +320,7 @@ main .container #about p a:hover{
     .container{
         margin-top: 190px;
         padding: 15px;
-        background-color: rgba(240, 248, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.1);
         margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
@@ -326,6 +338,10 @@ main .container #about p a:hover{
         margin: 0 auto;
     
     }
+    .container p a {
+        text-decoration: underline;
+        color: chocolate;
+    }
 }
 
 @media only screen and (max-width: 300px) {
@@ -338,7 +354,7 @@ main .container #about p a:hover{
     }
     .container{
         padding: 15px;
-        background-color: rgba(240, 248, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.1);
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -351,10 +367,13 @@ main .container #about p a:hover{
         text-align: justify;
         font-size: 15px;
     }
-
     .form {
         width: 100%;
         margin: 0 auto;
     
+    }
+    .container p a {
+        text-decoration: underline;
+        color: chocolate;
     }
 }
